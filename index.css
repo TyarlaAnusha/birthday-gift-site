@@ -1,0 +1,98 @@
+body{
+    text-align: center;
+    background: linear-gradient(#a2d2ff,#EFB0C9);
+    font-family: "Happy Monkey", system-ui;
+    color: aliceblue;
+    
+}
+h1,h2,h3,h4,p{
+    text-shadow: 0px 0px 1px black;
+    
+}
+.bff-img{
+    width: 150px;
+    height: 150px;   
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+    margin-bottom: 10px;
+    
+}
+#bday-age{
+    background-color:#EFB0C9 ;
+    padding:5px 10px;
+    border-radius: 5px;
+    margin:5px 0 10px 0;   
+     
+}
+#bday-date{
+    background-color:#EFB0C9 ;
+    padding:2px 5px;
+    border-radius: 3px;
+    margin:0;
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: start; */
+    align-items: center;
+}
+.git-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin-top: 50px;
+}
+.gift-title{
+margin-bottom: 10px;
+}
+.gift-hint{
+margin-top: 0;
+}
+/* .gift-img{
+width: 400px;
+height: 400px;
+border: 6px solid white;
+border-radius: 10px;
+} */
+
+.gift-img
+{
+    background-image: url(/images/bday-gift.jpg);
+    display: block;
+    margin: 0 auto;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 7px;
+} 
+#gift-img-happy:hover{
+    background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHljZzFrcmNqdW0zMmQ2NGFhdG95cHFwZzg0ZmRwdGRqbDJxazFiNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JqDeI2yjpSRgdh35oe/giphy.gif);
+}
+#gift-img-hot:hover{
+    background-image: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXNzbDYzeGp6NHpieW53Z3R4ZTFoMjM3Y2t5dzYzZWRnazI1MWVzMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5EYIsDA8NG53NYJrfP/giphy.gif);
+}
+#gift-img-des:hover{
+    background-image: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGM1dWZpOGZvb2t2amhiYm95aXBtYWJtdmI5cjkyenlqM2szMWJ1MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Nx8eo73E39sJyjQJvY/giphy.gif4ZTFoMjM3Y2t5dzYzZWRnazI1MWVzMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5EYIsDA8NG53NYJrfP/giphy.gif);
+}
+#gift-img-badass:hover {
+    background-image: url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbm1zOHBoYnRxd3FsZHhzMXpibHE4dnk1cHZ3eXZlcGtmaW1tNGJlbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/z9iE1SPAptyLK/giphy.gif);
+}
+#gift-img-cheers{
+    height: 300px;
+}
+#gift-img-cheers:hover {
+    background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzFyaWhyY253MnVpdTJjc2puOTF2OXZka3Q2ZGZxc2ozaXN5ZWJkbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/g9582DNuQppxC/giphy.gif);
+}
+#footer{
+    width: 400px;
+    margin: 40px auto 20px;
+
+ font-style: italic;
+ 
+}
+a{
+    color: white;
+}
+
